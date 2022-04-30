@@ -1,0 +1,16 @@
+{
+    "cards" : [
+        {
+            "img_path":"./img/experience/logo-cahsi.png",
+            "title":"the",
+            "subtitle":"quick",
+            "content":"brown"
+        },
+        {
+            "img_path":"./img/experience/logo-cahsi.png",
+            "title":"fox",
+            "subtitle":"jumps",
+            "content":"over"
+        }
+    ]   
+}

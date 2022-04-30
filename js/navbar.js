@@ -15,17 +15,46 @@ navbar_experience.addEventListener("click", changePageContent);
 navbar_projects.addEventListener("click", changePageContent);
 navbar_references.addEventListener("click", changePageContent);
 
+//cards
+card_container =document.getElementById("card-container");
+
 function clearPageContent() {
-  main_content.innerHTML = "";
+  card_container.innerHTML = "";
 }
 
 async function changePageContent(event) {
   clearPageContent();
-  page_path = "./html/" + event.target.id + ".html";
-  $(main_content).load(page_path);
+  content_path = "./content/" + event.target.id + ".json";
+  createCards(content_path);
 }
 
 function init() {
   clearPageContent();
-  $(main_content).load("./html/home.html");
+  createCards("./content/home.json")
+}
+
+function createCards(path) {
+  fetch(path)
+  .then(response => {
+    return response.json();
+  })
+  .then(jsondata => {
+    let html_string = "";
+    for (let i = 0; i < jsondata["cards"].length; i++) {
+      let card = jsondata["cards"][i];
+      let content = `<div class="card">
+                      <div class="card-header">
+                        <img class="card-image" src="${card["img_path"]}">
+                        <div class="card-header-text">
+                          <div class="card-title">${card["title"]}</div>
+                          <div class="card-subtitle">${card["subtitle"]}</div>
+                        </div>
+                      </div>
+                      <div class="card-content">${card["content"]}</div>
+                    </div>`;
+      html_string += content; 
+    }
+    html_string = $.parseHTML(html_string);
+    $(card_container).append(html_string);
+  });
 }
