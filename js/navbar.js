@@ -22,10 +22,10 @@ function clearPageContent() {
 async function changePageContent(event) {
   clearPageContent();
   page_path = "./html/" + event.target.id + ".html";
-  main_content.innerHTML=`<object type="text/html" data="${page_path}" ></object>`;
+  $(main_content).load(page_path);
 }
 
 function init() {
   clearPageContent();
-  main_content.innerHTML=`<object type="text/html" data="./html/home.html" ></object>`;
+  $(main_content).load("./html/home.html");
 }
