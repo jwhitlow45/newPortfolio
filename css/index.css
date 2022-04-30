@@ -145,12 +145,18 @@ a {
   text-align: left;
   margin-bottom: 5px;
   font-size: larger;
+  font-weight: bold;
 }
 
 .card-subtitle {
   font-size: large;
+  font-style: italic;
 }
 
 .card-content {
+  margin-top: 10px;
+}
+
+.card-bullet {
   margin-top: 10px;
 }

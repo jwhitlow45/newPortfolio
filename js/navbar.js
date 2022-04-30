@@ -42,7 +42,13 @@ function createCards(path) {
     let html_string = "";
     for (let i = 0; i < jsondata["cards"].length; i++) {
       let card = jsondata["cards"][i];
-      let content = `<div class="card">
+      let content = card["content"];
+      let content_divs = ""
+      for (let j = 0; j < content.length; j++) {
+        content_divs += `<li class="card-bullet">${content[j]}</li>`
+      }
+
+      let html_content = `<div class="card">
                       <div class="card-header">
                         <img class="card-image" src="${card["img_path"]}">
                         <div class="card-header-text">
@@ -50,9 +56,9 @@ function createCards(path) {
                           <div class="card-subtitle">${card["subtitle"]}</div>
                         </div>
                       </div>
-                      <div class="card-content">${card["content"]}</div>
+                      <div class="card-content">${content_divs}</div>
                     </div>`;
-      html_string += content; 
+      html_string += html_content; 
     }
     html_string = $.parseHTML(html_string);
     $(card_container).append(html_string);
