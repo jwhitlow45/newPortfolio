@@ -1,16 +1,20 @@
 {
     "cards" : [
         {
-            "img_path":"./img/experience/logo-cahsi.png",
-            "title":"the",
-            "subtitle":"quick",
-            "content":"brown"
+            "img_path":"./img/education/logo-fsbulldog.png",
+            "title":"B.S. Computer Science",
+            "subtitle":"California State University, Fresno - 12/2022",
+            "content": [
+                "Overall GPA: 3.62 | Major GPA: 4.0"
+            ]
         },
         {
-            "img_path":"./img/experience/logo-cahsi.png",
-            "title":"fox",
-            "subtitle":"jumps",
-            "content":"over"
+            "img_path":"./img/education/logo-cos.png",
+            "title":"A.S. Mathematics",
+            "subtitle":"College of the Sequoias, Visalia - 05/2020",
+            "content": [
+                "Overall GPA: 3.4 | Major GPA: 4.0"
+            ]
         }
     ]   
 }
