@@ -47,7 +47,7 @@ html {
   background-position: -100% 0%;
 }
 
-.content-container {
+#main-content {
   display: flex;
   justify-content: center;
 }

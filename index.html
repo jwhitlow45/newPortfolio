@@ -3,23 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./css/index.css" />
+    <script defer src="./js/navbar.js"></script>
   </head>
-  <body>
+  <body onload="init()">
     <div class="side-nav-bar">
       <img src="./img/brand/brand-black.png" class="logo"/>
-      <span class="nav-button noselect">
+      <span id="home" class="nav-button noselect">
         Home
       </span>
-      <span class="nav-button noselect">
+      <span id="education" class="nav-button noselect">
         Education
       </span>
-      <span class="nav-button noselect">
+      <span id="experience" class="nav-button noselect">
         Experience
       </span>
-      <span class="nav-button noselect">
+      <span id="projects" class="nav-button noselect">
         Projects
       </span>
-      <span class="nav-button noselect">
+      <span id="references" class="nav-button noselect">
         References
       </span>
       <span class="socials">
@@ -30,9 +31,8 @@
           <img src="./img/socials/logo-linkedin-black.png" class="link-img"/>
         </a>
       </span>
-      
     </div>
-    <div class="content-container">
+    <div id="main-content">
       test
     </div>
   </body>
