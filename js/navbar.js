@@ -47,7 +47,10 @@ function createCards(path) {
       for (let j = 0; j < content.length; j++) {
         content_divs += `<li class="card-bullet">${content[j]}</li>`
       }
-
+      let link_content = "";
+      if (card["link"] != undefined) {
+        link_content = `<div class="card-link-container"><a href="${card["link"]}" target="_blank"><div class="card-link">Source Code</div></a></div>`;
+      }
       let html_content = `<div class="card">
                       <div class="card-header">
                         <img class="card-image" src="${card["img_path"]}">
@@ -58,6 +61,7 @@ function createCards(path) {
                         </div>
                       </div>
                       <div class="card-content">${content_divs}</div>
+                      ${link_content}
                     </div>`;
       html_string += html_content; 
     }
