@@ -49,7 +49,7 @@ function createCards(path) {
       }
       let link_content = "";
       if (card["link"] != undefined) {
-        link_content = `<div class="card-link-container"><a href="${card["link"]}" target="_blank"><div class="card-link">Source Code</div></a></div>`;
+        link_content = `<a class="card-link" href="${card["link"]}" target="_blank"><div class="card-button">Source Code</div></a>`;
       }
       let html_content = `<div class="card">
                       <div class="card-header">

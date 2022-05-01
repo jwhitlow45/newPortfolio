@@ -125,6 +125,9 @@ a {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+
   min-width: 400px;
   margin-bottom: 10px;
   margin-left: 5px;
@@ -183,4 +186,17 @@ a {
 
 .card-bullet {
   margin-top: 10px;
+}
+
+.card-link {
+  margin-top: auto;
+}
+
+.card-button {
+  text-align: center;
+  background-color: #dec0f1;
+
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
