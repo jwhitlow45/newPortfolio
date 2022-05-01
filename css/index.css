@@ -112,13 +112,13 @@ a {
   }
 }
 
-@media (min-width: 1265px) and (max-width: 1888px) {
+@media (min-width: 1265px) and (max-width: 1700px) {
   .card {
     width: 45%;
   }
 }
 
-@media (min-width: 1889px) {
+@media (min-width: 1701px) {
   .card {
     width: 30%;
   }

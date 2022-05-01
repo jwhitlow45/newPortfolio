@@ -1,0 +1,64 @@
+{
+    "cards" : [
+        {
+            "img_path":"./img/projects/logo-caltron.png",
+            "title":"Caltron",
+            "subtitle":"Paused",
+            "date":"07/2021 - 08/2021",
+            "link":"https://github.com/jwhitlow45/caltron",
+            "content": [
+                "FOSS Linux calendar with Google Calendar integration, theme supports, and any other features I think of and implement",
+                "<i>Technologies: HTML, CSS, Javascript, NodeJS, Electron</i>"
+            ]
+        },
+        {
+            "img_path":"./img/projects/logo-smrtgrdyn.png",
+            "title":"SmrtGrdyn",
+            "subtitle":"Complete",
+            "date":"08/2021 - 12/2021",
+            "link":"https://github.com/FS-CSCI150-F21/FS-CSCI150-F21-Team2",
+            "content": [
+                "Web application to allow for automatic watering, AI animal detection, and health data collection in small outdoor gardens using a raspberry pi connected to various interfaces",
+                "Data accessed remotely through user's account on SmrtGrdyn web dashboard containing interactive graphs and notifications of recent garden activity",
+                "<i>Technologies: Java, Python, SQL, HTML, CSS, Javascript</i>"
+            ]
+        },
+        {
+            "img_path":"./img/projects/logo-db.png",
+            "title":"Azure Weather Database",
+            "subtitle":"Complete",
+            "date":"05/2021 - 08/2021",
+            "link":"https://github.com/jwhitlow45/ciwa",
+            "content": [
+                "Utilizes Microsoft Azure to build a commercially viable host for storage, retrival, and cleaning of weather data from CIMIS weather stations through a REST API",
+                "Azure functions read and fulfill requests from data queues to retrieve or clean data",
+                "Automated tasks update database by placing requests for CIMIS weather data on data queues",
+                "<i>Technologies: Python, MSSQL, RestAPI, Microsoft Azure, Azure Core Tools, Azure Service Bus, Azure Data Queue, Azure Database Hosting</i>"
+            ]
+        },
+        {
+            "img_path":"./img/projects/logo-reddit.png",
+            "title":"Reddit Frontpage Stats",
+            "subtitle":"Complete",
+            "date":"03/2021 - 06/2021",
+            "link":"https://github.com/jwhitlow45/ciwa",
+            "content": [
+                "Uses the PRAW API to interact with Reddit and retrieve post information from the front page and store data in an MSSQL database",
+                "Currently gathering data to discover metrics that lead to posts becoming popular such as time of day posted",
+                "<i>Technologies: Python, MSSQL, Alembic, PRAW, Pydantic, SQLAlchemy</i>"
+            ]
+        },
+        {
+            "img_path":"./img/projects/logo-mips.png",
+            "title":"MIPS Memory Hierarchy Simulation",
+            "subtitle":"Complete",
+            "date":"04/2021 - 05/2021",
+            "link":"https://github.com/jwhitlow45/memoryHierarchySimulationMIPS",
+            "content": [
+                "Emulates reading of MIPS binary instructions from a text file",
+                "Performs load word and store word instructions into an L1 cache and main memory module using two-way set-associative cache with least recently used write back policy",
+                "<i>Technologies: C++</i>"
+            ]
+        }
+    ] 
+}
