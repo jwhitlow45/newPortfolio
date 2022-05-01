@@ -41,7 +41,7 @@
             "title":"Reddit Frontpage Stats",
             "subtitle":"Complete",
             "date":"03/2021 - 06/2021",
-            "link":"https://github.com/jwhitlow45/ciwa",
+            "link":"https://github.com/jwhitlow45/redditFrontpageStats",
             "content": [
                 "Uses the PRAW API to interact with Reddit and retrieve post information from the front page and store data in an MSSQL database",
                 "Currently gathering data to discover metrics that lead to posts becoming popular such as time of day posted",
