@@ -3,7 +3,8 @@
         {
             "img_path":"./img/experience/logo-aws.png",
             "title":"Software Development Engineer Intern",
-            "subtitle":"Amazon Web Services | 05/2022 - 08/2022",
+            "subtitle":"Amazon Web Services",
+            "date":"05/2022 - 08/2022",
             "content": [
                 "SPACE CODE"
             ]
@@ -11,7 +12,8 @@
         {
             "img_path":"./img/experience/logo-ciwa.png",
             "title":"Database Team Lead",
-            "subtitle":"iAgriculture DMS | 02/2021 - Current",
+            "subtitle":"iAgriculture DMS",
+            "date":"02/2021 - 05/2022",
             "content": [
                 "Built system utilizing Python, Azure Service Bus, Azure Data Queue, and Microsoft SQL Server to automate data retrieval, storage, and cleaning of over 50 million data points",
                 "Increased SQL database efficiency by 3000% through a variety of techniques including indexing and recovery model management",
@@ -21,7 +23,8 @@
         {
             "img_path":"./img/experience/logo-google.png",
             "title":"Software Product Sprint Participant",
-            "subtitle":"Google | 05/2021 - 08/2021",
+            "subtitle":"Google",
+            "date":"05/2021 - 08/2021",
             "content": [
                 "Built a website to visualize yearly returns from a savings account compared to investing in the S&P500 using HTML/CSS for front-end and Java for back-end",
                 "Collaborated with another participant and two Google Software Engineers to create pull requests and conduct code reviews",
@@ -31,7 +34,8 @@
         {
             "img_path":"./img/experience/logo-cahsi.png",
             "title":"Student Researcher",
-            "subtitle":"CAHSI | 06/2021 - 08/2021",
+            "subtitle":"CAHSI",
+            "date":"06/2021 - 08/2021",
             "content": [
                 "Generated representative synthetic datasets that can be widely used for cybersecurity and machine learning/deep learning research and education",
                 "Enhanced data randomness and diversity by designing a new data reconstruction algorithm to generate variations of the original attacks",
@@ -41,7 +45,8 @@
         {
             "img_path":"./img/experience/logo-ciwa.png",
             "title":"Database Researcher",
-            "subtitle":"iAgriculture DMS | 09/2020 - 02/2021",
+            "subtitle":"iAgriculture DMS",
+            "date":"09/2020 - 02/2021",
             "content": [
                 "Developed and tested multiple Microsoft Azure functions",
                 "Automate querying data from various RestAPIs into a Microsoft Azure SQL database using Python",

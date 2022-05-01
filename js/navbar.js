@@ -54,6 +54,7 @@ function createCards(path) {
                         <div class="card-header-text">
                           <div class="card-title">${card["title"]}</div>
                           <div class="card-subtitle">${card["subtitle"]}</div>
+                          <div class="card-date">${card["date"]}</div>
                         </div>
                       </div>
                       <div class="card-content">${content_divs}</div>
